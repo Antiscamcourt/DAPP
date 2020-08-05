@@ -1,0 +1,27 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(46, 43, 43);
+  /* background-image: url('https://firebasestorage.googleapis.com/v0/b/cdn-clients-other-use.appspot.com/o/images%2Fbackground%20for%20antispam.jpg?alt=media&token=d084f5d8-c596-429c-83e8-7a4d99a4f2cb');
+background-size: cover; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media screen and (max-width: 580px) {
+
+  body{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

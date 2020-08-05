@@ -1,0 +1,13 @@
+[{
+    id: "1"
+    contractAddress: "0x16F20464398463DC5AfA784657b027Aca8a5bF30"
+name: "Dapp2"
+uri: "URI"
+},
+{
+    id: "2"
+    contractAddress: "0x16F20464398463DC5AfA784657b027Aca8a5bF30"
+name: "Dapp2"
+uri: "URI"
+}
+]

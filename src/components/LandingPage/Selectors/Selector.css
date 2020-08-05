@@ -1,0 +1,248 @@
+
+
+
+
+.stack-Heading{
+    padding-top: 150px;
+    padding-bottom: 140px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.stakeHeading-confirmation{
+    /* padding-top: 150px;
+    padding-bottom: 140px; */
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 50%;
+}
+
+
+
+.stakeExchange-container{
+    border-style: solid;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+    /* background-color: black; */
+    color: white;
+    margin-left: 60px;
+    
+}
+
+.stakeAmount-container{
+    border-style: none;
+    border-radius: 15px;
+    margin-left: 60px;
+    width: 350px;
+
+}
+
+.stakeRecieve-container{
+    border-style: none;
+    border-radius: 15px;
+    margin-left: 60px;
+    width: 350px;
+}
+
+.stakeConfirm-container{
+    border-style: none;
+    border-radius: 15px;
+    width: 350px;
+    
+}
+
+.stakeAmpount-input{
+    width: 340px;
+    height: 27px;
+    font-size: 20px;
+}
+
+.stakeHeading{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+}
+.stakeSub-Heading{
+    color: rgb(194, 186, 186);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    font-size: 21px;
+}
+
+.stakeAmontShow-container{
+    text-align: center;
+    width: 200px;
+    background-color: aliceblue;
+    /* margin-left: px; */
+}
+.stakeButtons{
+    width: 400px;
+    background-color: #00000000;
+    border-style: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 5px;
+    border: solid;
+    border-radius: 20px;
+    transition: background-color 0.4s linear;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+
+.stakeButtons:hover{
+    border-radius: 22px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  
+  @media screen and (max-width: 1410px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+      }
+      .row{
+        /* -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        margin-left: 0px;
+        margin-right: 0px; */
+        text-align: center;
+        justify-content: center;
+      }
+      .stakeButtons {
+          margin-left: 0px;
+          margin-right: 0px;
+          width: 350px;
+          text-align: center;
+
+      }
+      .stakeAmpount-input{
+          width: 350px;
+          text-align: center;
+
+      }
+  
+      .stakeHeading-confirmation{
+          margin-left: 0px;
+          margin-right: 0px;
+          text-align: center;
+
+      }
+  }  
+  @media screen and (max-width: 1024px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+    }
+
+    .stakeButtons {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 350px;
+
+    }
+    .stakeAmpount-input{
+        width: 300px;
+    }
+
+    .stakeHeading-confirmation{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    
+    .stakeButtons {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 350px;
+    }
+    .stakeAmpount-input{
+        width: 350px;
+    }
+
+    .stakeHeading-confirmation{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 580px) {
+
+.stake-containe{
+    display: inline-flex;
+    
+    
+}
+
+.column {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.stakeButtons {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 350px;
+
+}
+.stakeAmpount-input{
+    width: 350px;
+}
+
+.stakeHeading-confirmation{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}

@@ -1,0 +1,236 @@
+
+
+.DappTable-heading{
+display: flex;
+background-color: rgba(51, 50, 50, 0.884);
+
+}
+
+
+.list-data1{
+  margin-left: 45px;
+  color: white;
+}
+
+.list-data2{
+  margin-left: 250px;
+  color: white;
+}
+
+.list-data3{
+  margin-left: 308px;
+  color: white;
+}
+
+
+.list-data4{
+  margin-left: 163px;
+  color: white;
+}
+
+.list-data5{
+  margin-left: 220px;
+  color: white;
+}
+
+
+
+
+
+.list-Item1{
+  margin-left: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.list-Item2{
+  margin-left: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.list-Item3{
+  margin-left: 0px;
+  color: rgb(0, 0, 0);
+}
+
+
+.list-Item4{
+  margin-left: 0px;
+  color: rgb(0, 0, 0);
+}
+
+
+.list-Item5{
+  margin-left: 0px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+  
+  }
+  
+
+  .list li {
+    background-color: rgb(247, 241, 241);
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+  }
+.list-item{
+    width: 150px;
+  
+  }
+  /* .list li:hover .approve-btn {
+    opacity: 1;
+    
+  
+  }
+ */
+
+ .dapp-list{
+  width: 100%;
+
+ }
+
+
+
+
+
+
+
+
+
+
+.dapplist-data{
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* forModal */
+.modal-button{
+  display: flex;
+
+}
+
+.dappModal-close{
+  margin-left: 747px;
+}
+.dappModal-close:hover{
+  color: rgb(221, 86, 86);
+}
+
+
+.available-dapp-container{
+  width: 750px;
+  height: 190px;
+  text-align: center;
+  background-color: rgb(228, 161, 161);
+  border-radius: 22px;
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  /* padding-top: 50px; */  
+}
+.available-dapp-text{
+  padding-top: 1px;
+  font-size: 19px;
+
+}
+.dapp-data{
+  color: #333;
+}
+
+
+
+
+.dapp-upvote-listeDapps{
+width: 120px;
+height: 50px;
+font-size: 15px;
+/* margin-right: 530px; */
+border-radius: 20px;
+/* background-color: rgba(86, 196, 82, 0.973); */
+color: rgba(86, 196, 82, 0.973);
+border-color: rgba(86, 196, 82, 0.973);
+background-color: white;
+}
+
+.dapp-upvote-listeDapps:hover{
+  background-color: rgba(86, 196, 82, 0.973);
+  color: white;
+  border-color: rgba(49, 175, 45, 0.973);
+  cursor: not-allowed;
+}
+
+.dapp-downvote-listeDapps{
+width: 120px;
+height: 50px;
+border-radius: 20px;
+font-size: 15px;
+/* background-color: rgb(226, 50, 50); */
+color: rgb(226, 50, 50);
+border-color: rgb(226, 50, 50);
+background-color: white;
+}
+
+.dapp-downvote-listeDapps:hover{
+  background-color: rgb(226, 50, 50);
+  color: white;
+  border-color: rgb(199, 31, 31);
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+.review-container{
+  text-align: center;
+}
+
+.dapp-review-btn{
+  margin-top: 15px;
+  width: 30%;
+  /* background-color: rgb(206, 65, 65); */
+  color: rgb(0, 0, 0);
+  height: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 11px;
+  
+}
+
+.dapp-review-btn:hover{
+  color: white;
+  background-color: #333;
+  border-style: none;
+}
