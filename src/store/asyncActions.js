@@ -1,6 +1,8 @@
 import { setupWeb3, setupContract, addEthereumAccounts, issueSmartLc, web3LoadingError, setupToken } from "./actions";
 import Web3 from "web3";
 
+window.web3 = web3
+
 import { ANTI_SPAM_DAPP_ABI, ANTI_SPAM_DAPP_ADDRESS  } from '../ABI/antispam';
 
  import { AST_TOKEN_ABI,AST_TOKEN_ADDRESS } from "../ABI/AST_token";
