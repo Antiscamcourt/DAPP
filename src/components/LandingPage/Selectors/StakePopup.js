@@ -105,7 +105,7 @@ const StackModel = () => {
   
             <div className="stakeExchange-container column">
               <h4>Exchange Rate</h4>
-              <h2>TOKENS NUMBER</h2>
+              <h2>1 AST = 0.95 STT</h2>
               <p> AST Balance  ={ast_Balance}</p>
             </div>  
             {/* AMOUNT CONTAINER */}
@@ -150,7 +150,7 @@ const StackModel = () => {
   
             <div className="stakeExchange-container column">
               <h4>Exchange Rate</h4>
-              <h2>TOKENS NUMBER</h2>
+              <h2>1 STT = 0.95 AST</h2>
               <p>STT Balance={stt_Balance}</p>
             </div>  
             {/* AMOUNT CONTAINER */}

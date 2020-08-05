@@ -38,7 +38,7 @@ export const EthAccountInfo = () => {
                     <br/>
                     <span style={{color: "white" , textAlign: 'center'}}>Ether Balance: </span><span style={{color: "white" , textAlign: 'center'}}> {accountBalance} Ether</span>
                     <br/>
-                    <span style={{color: "white" , textAlign: 'center'}}>STT  Balance: </span><span style={{color: "white" , textAlign: 'center'}}>{ast} STT</span>
+                    <span style={{color: "white" , textAlign: 'center'}}>MSH --</span><span style={{color: "white" , textAlign: 'center'}}>{ast}-- AST</span>
                 </div>);
         }
         else if(!web3 && web3LoadingErrorMessage && !web3Loadded) {
