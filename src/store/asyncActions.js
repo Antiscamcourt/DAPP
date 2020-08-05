@@ -92,10 +92,8 @@ export const markScam = async(contract, accounts,id,  dispatch)=>{
 }//      approveAST(tokenContractAST,ANTI_SPAM_DAPP_ADDRESS,accounts,dispatch)
 
 export const approveAST = async(tokenContractAST,spender,tokens, accounts, dispatch)=>{
-  var decimal =100000000000000000;
-         let toapprove=tokens*decimal
-    // console.log("before Approval of AST",toapprove.toString());
-      const receipt =  await tokenContractAST.methods.approve(spender,toapprove.toString()).send({from : accounts[0]});
+  const toapprove = window.web3.utils.toWei(tokens.toString());
+      const receipt =  await tokenContractAST.methods.approve(spender,toapprove).send({from : accounts[0]});
 //    console.log("after  Approval ", receipt);
 }
 
