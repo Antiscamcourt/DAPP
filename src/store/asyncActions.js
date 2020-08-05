@@ -1,7 +1,6 @@
 import { setupWeb3, setupContract, addEthereumAccounts, issueSmartLc, web3LoadingError, setupToken } from "./actions";
 import Web3 from "web3";
 
-window.web3 = web3
 
 import { ANTI_SPAM_DAPP_ABI, ANTI_SPAM_DAPP_ADDRESS  } from '../ABI/antispam';
 
@@ -14,6 +13,7 @@ export const loadBlockchain = async(dispatch) =>{
         if(Web3.givenProvider){
             const web3 = new Web3(Web3.givenProvider);
             await Web3.givenProvider.enable();
+		window.web3 = web3;
             dispatch(setupWeb3(web3));
             const contract = new web3.eth.Contract(ANTI_SPAM_DAPP_ABI, ANTI_SPAM_DAPP_ADDRESS);
             const tokenContract = new web3.eth.Contract(AST_TOKEN_ABI,AST_TOKEN_ADDRESS);// create AST contract instance
