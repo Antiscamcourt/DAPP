@@ -100,16 +100,16 @@ export const approveAST = async(tokenContractAST,spender,tokens, accounts, dispa
 }
 
 export const swapAndstakeSPT = async(contract, accounts, tokens, dispatch)=>{
-   var decimal =1000000000000000000;
-   let swap= tokens*decimal
+   
+   let swap=window.web3.utils.toWei(tokens.toString());
     // console.log("before swap",swap);
       const receipt =  await contract.methods.swapAndstakeSTT(swap.toString()).send({from : accounts[0]});
 //    console.log("after  swapAndstakeSPT ", receipt);
 }
 //todo redeem
 export const redeemSTT = async(contract, accounts, tokens, dispatch)=>{
-    var decimal =1000000000000000000;
-    let toRedeem= tokens*decimal
+    
+    let toRedeem= window.web3.utils.toWei(tokens.toString());
     // console.log("before redeem");
       const receipt =  await contract.methods.redeem(toRedeem.toString()).send({from : accounts[0]});
 //    console.log("after  redeem ", receipt);
