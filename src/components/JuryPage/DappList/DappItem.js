@@ -83,7 +83,7 @@ export const DappItem = ({id , isActive , contractAddress , name , url ,remarks 
     downVote(contract,accounts,id,dispatch);
   }
 
-  if(isActive = true ) {
+  if(isActive == true ) {
 
     return(
       
