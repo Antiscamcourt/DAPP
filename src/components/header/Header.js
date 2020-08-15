@@ -56,7 +56,7 @@ const Header = ({ onMenuClickHandler }) => {
         <Toolbar className={classes.container }>
           {/* <Link to="/">
           </Link> */}
-                    <a href="https://antiscamtoken.cyou/">  <img className={classes.logo} src="https://firebasestorage.googleapis.com/v0/b/cdn-clients-other-use.appspot.com/o/images%2FSPT.png?alt=media&token=d0f84c2f-81b0-4ca7-8525-578992ef7d43" alt="logo" width="80px" height='70px'/> </a>
+                    <a href="https://antiscamtoken.cyou/">  <img className={classes.logo} src="https://i.ibb.co/zZZnrbt/dapp-logo.png?fbclid=IwAR2qfV88m0fqRDrF_25-_X5jMMFpiJosaRPYKei1v70yuVaiO_Q2_PLXujg" alt="logo" width="80px" height='80px'/> </a>
 
           <Hidden xsDown>
             <div className={classes.links}>
